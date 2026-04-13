@@ -6,10 +6,10 @@ This SDK is built using `aiohttp` for robust network connection pooling, and `ms
 
 ## Installation
 
-Ensure you have the required dependencies installed (ideally in a Python virtual environment):
+Ensure you have the required dependencies installed (ideally in a Python virtual environment). Since this project is available on GitHub, you can install it directly via pip:
 
 ```bash
-pip install aiohttp msgspec keyring
+pip install git+https://github.com/Varun-Chinthoju/tradier_api.git
 ```
 
 ## Authentication
