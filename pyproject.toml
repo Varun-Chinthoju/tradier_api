@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tradier_api"
+version = "0.1.0"
+description = "Tradier API Python SDK"
+dependencies = [
+    "aiohttp",
+    "msgspec",
+    "keyring"
+]
+
+[project.scripts]
+tradier = "tradier_api.cli:main"
